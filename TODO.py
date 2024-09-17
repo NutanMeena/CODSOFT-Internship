@@ -48,6 +48,7 @@ class ToDoApp:
             self.tasks[index]["completed"] = True
             self.update_task_listbox()
         else:
+            
             messagebox.showwarning("Selection Error", "Please select a task to mark as completed.")
 
     def delete_task(self):
